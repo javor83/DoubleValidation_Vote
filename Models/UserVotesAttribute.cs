@@ -5,11 +5,11 @@ namespace WebApplication3.Models
     public class UserVotesAttribute : ValidationAttribute
     {
 
-
+        //*******************************************************
         public string AgeProperty { get; set; }
 
         public string AllowVoteProperty { get; set; }
-
+        //*******************************************************
 
 
         protected override ValidationResult IsValid(object? value, ValidationContext validationContext)
@@ -49,5 +49,6 @@ namespace WebApplication3.Models
 
 
         }
+        //*******************************************************
     }
 }
